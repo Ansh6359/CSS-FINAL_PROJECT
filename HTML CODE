@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <!-- css file  -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index2.css">
+    <!-- font awesome cdn  -->
+
+</head>
+
+<body>
+    <!-- header section start  -->
+    <header>
+        <div class="head-section layout">
+            <div class="nav-bar flex space-between align-center">
+                <div class="logo uppercase f-w-700 letter-spacing2"><span>Ansh</span> Patel</div>
+                <div class="nav-links">
+
+                    <ul class="flex f-w-600">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Experience</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <button class="btn learn-with-me">Learn with me</button>
+                <input type="checkbox" name="checkbox" id="click">
+                <label for="click" class="menu-btn" id="menu">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+            </div>
+            <!-- content  -->
+            <div class="content flex align-center">
+                <!-- left section  -->
+                <div class="left flex2">
+                    <h4 class="uppercase letter-spacing2">I am <span>Ansh Patel</span> </h4>
+                    <h2 class="my-t-10 uppercase letter-spacing2 f-w-700">Student of Georgian College</h2>
+
+
+                </div>
+
+                <!-- right section  -->
+                <div class="right flex3">
+                    <img src="./pht.jpg" alt="Ansh Photo" width="5" height="500">
+                    <div class="color-box"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- about section start  -->
+    <section class="about-me-sec">
+        <div class="about-sec layout">
+            <h3 class="uppercase pd-t-30 text-center">About Me</h3>
+            <hr class="w55 my-t-10">
+
+            <div class="about-content flex justify-center align-center">
+                <!-- left side  -->
+                <div class="left flex2">
+                    <h2 class="uppercase letter-spacing2">Ansh V. Patel</h2>
+                    <p class="my-t-10"></p>
+
+                    <ul>
+                        <li><span class="f-w-600">Georgian College Student - 200542632</span></li>
+                    </ul>
+
+                    <p>I am Ansh Patel.I am pursuing my study in Georgian College.My course is CMPG Sem-2.</p>
+                    <p>Let's talk about my hobbies:</p>
+                    <p>1) Reading Books: Generally I like to read my field related books in the morning</p>
+                    <p>2) Listening Music: Whenever I am feel bad I used to listen energetic songs to get positive
+                        energy.</p>
+                    <p>3) Traveling: When I get long Vacation I generally go with my family for long trips.</p>
+                    <p>4) Meditation: I used to do meditate in early morning at aroun 5:00AM after taking bath.</p>
+                    <p> </p><br>
+                    <p></p>
+                    <p>My Qualification</p>
+                    <p>I completed 12th Science in India then after I did IELTS and complete all the requirements to
+                        study in Canada.</p>
+                    <p>My Goal: </p>
+                    <p>My desire to contribute positively to society is one of the driving forces behind my actions.
+                        Volunteering in College and in my City Barrie has allowed me to connect with my community and
+                        make a tangible impact. Whether it's lending a hand to those in need or advocating for causes
+                        close to my heart, I believe in using my voice and actions to effect change.</p>
+
+                    <p>To Sum up:</p>
+                    <p>My story is an ongoing narrative, with each chapter revealing more about who I am and who I
+                        aspire to be. It's a journey filled with the colors of joy, the textures of challenges, and the
+                        melodies of growth. As I continue along this path, I am grateful for the opportunities that have
+                        shaped me, the people who have walked beside me, and the infinite possibilities that await.
+
+                        Feel free to personalize this essay by adding specific details and anecdotes that resonate with
+                        your own life. Your "About Me" essay should reflect your individuality, experiences, and
+                        aspirations in a way that resonates with your readers.
+                    </p>
+                    <br>
+
+                    <blockquote class="quote">
+                        "Your work is going to fill a large part of your life, and the only way to be truly satisfied is
+                        to do what you believe is great work. And the only way to do great work is to love what you do.
+                        If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart,
+                        you'll know when you find it." - Steve Jobs
+                    </blockquote>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- about section end  -->
+
+    <!-- portfolio section start  -->
+    <section class="portfolio-sec">
+        <div class="portfolio layout">
+            <h3 class="uppercase text-center pd-30">Projects</h3>
+            <div class="portolio-parent flex justify-center align-center text-center">
+                <div class="portfolio-child">
+
+                    <h3>Tic-Tac-Toe Game</h3>
+                    <p>- Designed a game using JAVA which runs in CMD Terminal and being run between 2 players.
+                        - Used various JAVA model classes to provide the sufficient functionality to the game and
+                        implemented JAVA pre-defined methods too.</p>
+                    <button class="btn btn2">Explore More</button>
+                </div>
+
+                <div class="portfolio-child">
+
+                    <h3>Fire Alarm System (Arduino Virtual Kit)</h3>
+                    <p>Designed a fire alarm system in Arduino virtual kit with lot of functionality.</p>
+                    <button class="btn btn2">Explore More</button>
+                </div>
+
+                <div class="portfolio-child">
+
+                    <h3>Retro Product Re-marketing Webpage (HTML CSS & JS)</h3>
+                    <p>Structured every page with a lot of functionality and featured every dynamic page to make it
+                        responsive at every breakpoint.
+                    </p>
+                    <button class="btn btn2">Explore More</button>
+                </div>
+
+                <div class="portfolio-child">
+
+                    <h3>Social Media Website</h3>
+                    <p>Made simple Face book front page in my 12th class</p>
+                    <button class="btn btn2">Explore More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- portfolio section end  -->
+
+    <!-- experience section start  -->
+    <section class="experience-sec">
+        <div class="experience layout">
+            <h3 class="uppercase pd-30 text-center">Experience</h3>
+            <div class="experience-details flex space-between text-center">
+                <div class="col">
+                    <h3>Cashier </h3>
+                    <p>Gas Station</p>
+                </div>
+
+                <div class="col">
+                    <h3>Data-Entry</h3>
+                    <p>Honda Company</p>
+                </div>
+
+                <div class="col">
+                    <h3>Member in MLM</h3>
+                    <p>Chain Marketing</p>
+                </div>
+
+                <div class="col">
+                    <h3>Bitcoin</h3>
+                    <p>Investor</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- experience section end  -->
+
+    <!-- testimonal section start  -->
+    <section class="testimonial-sec">
+        <div class="testimonial layout">
+            <h3 class="uppercase text-center pd-30">Skills</h3>
+            <div class="testimonial-parent flex space-between align-center">
+                <div class="testimonial-child">
+
+                    <p>Programming Languages: Proficiency in one or more programming languages like Python, Java, C++,
+                        JavaScript, Ruby, Go, Swift, etc. Each language has its unique syntax and use cases.</p>
+                    <div class="review-sec flex space-between">
+                        <div class="icon-sec">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="name-sec text-center">
+                            <h4>Learn in Georgian College</h4>
+                            <p class="designation">Student</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-child">
+                    <img src="asset/user002.jpg" alt="">
+                    <p>Object-Oriented Programming (OOP): Understanding of OOP principles like abstraction,
+                        encapsulation, inheritance, and polymorphism.</p>
+                    <div class="review-sec flex space-between">
+                        <div class="icon-sec">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="name-sec text-center">
+                            <h4>Learn in OOP-Java Subject in Sem-2</h4>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-child">
+                    <img src="asset/user003.jpg" alt="">
+                    <p>Accepting Cash Payments: Cashiers receive cash payments from customers for their purchases. They
+                        must count the money received carefully to ensure that the correct amount is collected.</p>
+                    <div class="review-sec flex space-between">
+                        <div class="icon-sec">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="name-sec text-center">
+                            <h4>Ultramar </h4>
+                            <p class="designation">Gas Station</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- testimonal section end -->
+
+    <!-- contact-us section start  -->
+    <section class="contact-us-sec">
+        <div class="contact-us layout">
+            <h3 class="text-center uppercase pd-30">Contact us</h3>
+            <div class="contact-details flex space-between align-center">
+                <div class="left-sec">
+                    <h5>Main Address</h5>
+                    <p>9 Brighton<br> Road <br>Barrie - L4M 6S5</p>
+                </div>
+                <div class="center-sec">
+                    <h5>Contact No.</h5>
+                    <p>Mobile No. +1 (905)-924-2363</p>
+                    <h5>Email Id</h5>
+                    <p>200542632@student.georgianc.on.ca</p>
+                </div>
+                <div class="right-sec text-center">
+                    <form action="">
+                        Email : <input type="email" id="email-id"> <br>
+                        <button class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact-us section end  -->
+
+    <!-- footer section  -->
+    <footer>
+        <div class="footer-sec layout text-center">
+            <p> Css Final Project </p>
+        </div>
+    </footer>
+</body>
+
+</html>
