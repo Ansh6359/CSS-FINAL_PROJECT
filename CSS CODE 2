@@ -1,0 +1,91 @@
+/* Define a class for setting the layout of an element */
+.layout {
+    width: 80%;
+    margin: 0 auto;
+    /* Center the element horizontally */
+}
+
+/* Define a class for creating flexible layouts */
+.flex {
+    display: flex;
+}
+
+/* classes to define distributing space between flex items */
+.space-between {
+    justify-content: space-between;
+}
+
+/* Define a class for vertically aligning flex items in the center */
+.align-center {
+    align-items: center;
+}
+
+/*  horizontally centering flex items */
+.justify-center {
+    justify-content: center;
+}
+
+/* class for transforming text to uppercase */
+.uppercase {
+    text-transform: uppercase;
+}
+
+/*  weight classes */
+.f-w-500 {
+    font-weight: 500;
+}
+
+.f-w-600 {
+    font-weight: 600;
+}
+
+.f-w-700 {
+    font-weight: 700;
+}
+
+/* Define a class for adjusting letter spacing */
+.letter-spacing2 {
+    letter-spacing: 2px;
+}
+
+/* Define a class for styling buttons */
+.btn2 {
+    width: 140px;
+}
+
+/* Define flexible growth classes */
+.flex2 {
+    flex: 2;
+}
+
+.flex3 {
+    flex: 3;
+}
+
+/* Define classes for margin and padding adjustments */
+.my-t-10 {
+    margin-top: 10px;
+}
+
+.my-t-20 {
+    margin-top: 20px;
+}
+
+.pd-t-30 {
+    padding-top: 30px;
+}
+
+/* Define a class for setting width to 55% */
+.w55 {
+    width: 55%;
+}
+
+/* Define a class for center-aligning text */
+.text-center {
+    text-align: center;
+}
+
+/* Define a class for adding padding */
+.pd-30 {
+    padding: 30px;
+}
